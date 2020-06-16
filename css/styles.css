@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(24, 26, 27);
+    color: rgb(218, 215, 210);
+}
+
+.card {
+    background: transparent;
+    border-color: rgba(102, 102, 102, 0.13);
+}
+
+.card-text {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.img-thumbnail{
+    background: transparent;
+    border-color: rgb(52, 60, 69);
+}
+
+.reaction i {
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 20px;
+    width: 20px;
+    display: flex;
+}
+
+.reaction:nth-child(1) i {
+    background-image: url('../svg/like.svg');
+}
+
+.reaction:nth-child(2) i {
+    background-image: url('../svg/love.svg');
+}
+
+.reaction:nth-child(3) i {
+    background-image: url('../svg/haha.svg');
+}
+
+.reaction:nth-child(4) i {
+    background-image: url('../svg/wow.svg');
+}
+
+.reaction:nth-child(5) i {
+    background-image: url('../svg/sad.svg');
+}
+
+.reaction:nth-child(6) i {
+    background-image: url('../svg/angry.svg');
+}
