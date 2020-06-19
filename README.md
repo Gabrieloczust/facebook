@@ -1,9 +1,9 @@
-## API DO FACEBOOK
+## API do Facebook
 Informações sobre os ultimos posts no perfil do facebook.
 
 
-## INSTALAR DEPENDENCIAS
+## Instalar Dependencias
 composer install
 
-## RODAR O SERVIDOR EMBUTIDO DO PHP
+## Rodar o servidor embutido do PHP
 php -S localhost:8000
